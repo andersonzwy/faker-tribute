@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+/* Change Colour of highlight */
+::selection {
+  background: rgb(235, 169, 134);
+}
+main {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(225, 227, 225);
+    margin: 0.5% 0.03%;
+    border-radius: 5px;
+
+}
+
+header {
+  text-align: center;
+  padding-top: 2.5% ;
+
+}
+
+ a {
+   color: rgb(232, 85, 7);
+   text-decoration: none;
+ }
+
+body {
+  line-height: 1.5;
+}
+#title {
+  font-family: Bebas Neue, sans-serif;
+  font-size: 60px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight:900;
+  margin-bottom: 20px;
+}
+
+#title-descript {
+  margin-top: 0px;
+  font-size: 17px;
+  color: rgb(115, 115, 115);
+  text-transform: capitalize;
+}
+
+#img-div {
+    background-color: white;
+    padding: 10px;
+    margin: 0% 1%;
+    padding-top: 2%;
+}
+
+#image {
+  /* Responsive resizing, not exceeding original size */
+  max-width: 90%;
+  height: auto;
+  /* Center the image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image-caption {
+  text-align: center;
+  color: rgb(115, 115, 115);
+  font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+  #image {
+    max-width: 100%;
+  }
+  #image-caption {
+    font-size: 13px;
+  }
+}
+#tribute-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+@media screen and (min-width: 980px) {
+  #tribute-info {
+    width: 65%;
+  }
+}
+
+#info-title {
+  font-family: Bebas Neue;
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.date {
+  text-transform:uppercase;
+  font-weight: bold;
+}
+
+#final {
+margin-top: 5%;
+ text-align: center;
+ width: 30%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+#quote {
+  text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    width: 100%;
+    padding-left: 5%;
+
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quote:before {
+    display: block;
+    margin-right: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -30px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+#links {
+  margin: 23px 0px;
+}
+
+footer {
+  margin-top: 45px;
+  background-color: rgb(43, 43, 42);
+  height: 40px;
+  color: rgb(232, 85, 7);
+
+}
+
+
+#github {
+  display: inline-block;
+  padding-top:  8px;
+  padding-right: 15px;
+  font-size: 15px;
+  float: right;
+}
